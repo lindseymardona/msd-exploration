@@ -1,12 +1,12 @@
-# song-year-prediction
+# Predicting Release Year of Songs
 
 Contributors: lindseymardona, jbfranco21, ....
 
 ## The Task
-"Short description of the project."
+Our goal is to determine a small set of audio attributes that are highly predictive of a song's release year.
 
-#### Inputs
-#### Outputs
+#### Inputs (relevant?)
+#### Outputs (relevant?)
 
 ## The Dataset
 The Million Song Dataset (MSD) is a collection of 1,000,000 contemporary, popular music tracks with their associated audio features and metadata. The songs are mostly of western origina and release years range from 1922 to 2011, with a peak in songs from the 2000s. 
@@ -18,8 +18,18 @@ The Million Song Dataset (MSD) is a collection of 1,000,000 contemporary, popula
 ## Installations
 "Instructions on how to install the package requirements. If you used the conda line above, your instruction should have the line conda create --name NEWENV --file requirements.txt."
 
+## Scope and Limitations
 Scope and limitations, including ethical implications, accessibility concerns, and ideas for potential extensions.
 
-License and terms of use (probably MIT license).
+## Licenses
+"License and terms of use (probably MIT license)."
 
-References and acknowledgement."
+## References
+Project utilizes the Million Song Dataset:
+Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+The Million Song Dataset. In Proceedings of the 12th International Society
+for Music Information Retrieval Conference (ISMIR 2011), 2011.
+[link](http://millionsongdataset.com/)
+
+UCI data description:
+Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science. [link](http://archive.ics.uci.edu/ml/citation_policy.html)
