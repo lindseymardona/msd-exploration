@@ -1,7 +1,6 @@
 from matplotlib import pyplot as plt
 import random
 import pandas as pd
-import numpy as np
 
 def get_randcolor():
     '''
@@ -12,8 +11,6 @@ def get_randcolor():
     b = random.random()
     g = random.random()
     return (r, g, b)
-
-def_title = '0'
 
 class graph_visuals:
     '''
@@ -37,10 +34,13 @@ class graph_visuals:
         '''
         Creates a scatterplot using the two data columns of interest.
         '''
-        # creat subplot and appropriate axis titles
-        fig, ax = plt.subplots(1, figsize=(25,12))
-        ax.set(xlabel = self.var1_title, ylabel = self.var2_title, title = self.var1_title + ' vs. ' + self.var2_title)
-        ax.scatter(self.var1, self.var2, alpha = 0.6, c=get_randcolor())
+        # create subplot and appropriate axis titles
+        try:
+            fig, ax = plt.subplots(1, figsize=(25,12))
+            ax.set(xlabel = self.var1_title, ylabel = self.var2_title, title = self.var1_title + ' vs. ' + self.var2_title)
+            ax.scatter(self.var1, self.var2, alpha = 0.6, c=get_randcolor())
+        except ValueError:
+            print("Error: Two variables required for a scatterplot.")
         
     def frequency_bar_graph(self):
         '''
@@ -54,8 +54,10 @@ class graph_visuals:
         '''
         Creates a histogram using one column of interest to display the frequency of occurrence.
         '''
-        # plots the frequency of each value of a chosen column using bins
-        fig, ax = plt.subplots(1, figsize=(25,12))
-        ax.set(xlabel = self.var1_title, ylabel = 'Frequency', title = self.var1_title + ' with Frequency')
-        ax.hist(self.var1, self.bins)
-        
+        try:
+            fig, ax = plt.subplots(1, figsize=(25,12))
+            ax.set(xlabel = self.var1_title, ylabel = 'Frequency', title = self.var1_title + ' with Frequency')
+            # plots the frequency of each value of a chosen column using bins
+            ax.hist(self.var1, self.bins)
+        except ValueError:
+            print("Error: Bins value required; must be a specified positive integer.")
