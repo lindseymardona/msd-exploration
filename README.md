@@ -18,6 +18,9 @@ The Million Song Dataset (MSD) is a collection of 1,000,000 contemporary, popula
 ## Scope and Limitations
 Scope and limitations, including ethical implications, accessibility concerns, and ideas for potential extensions.
 
+## Description of the demo file
+<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 44 PM" src="https://user-images.githubusercontent.com/100387860/158728913-f100fa7a-1603-496d-8d35-493ff264deec.png">
+
 ## Licenses
 
 Permission is hereby granted, free of charge, to any person obtaining
