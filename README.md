@@ -54,3 +54,12 @@ for Music Information Retrieval Conference (ISMIR 2011), 2011.
 
 UCI data description:
 Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science. [link](http://archive.ics.uci.edu/ml/citation_policy.html)
+
+## Tutorials
+https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge
+Main project link which contains a dataset with 1,000,000 playlists created by Spotify users from January 2010 to October 2017
+Contains playlist titles, track titles, last edit time, number of playlist edits, and other fields of metadata.
+https://www.youtube.com/watch?v=aHdgGnlIewk
+Tutorial for using the Million Songs Dataset for a recommendation engine
+https://towardsdatascience.com/how-spotify-recommends-your-new-favorite-artist-8c1850512af0 
+Article overviewing the recommendation system Spotify utilizes, the recommendation models Spotify uses.
