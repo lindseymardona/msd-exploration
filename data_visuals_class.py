@@ -37,6 +37,7 @@ class graph_visuals:
         '''
         Creates a scatterplot using the two data columns of interest.
         '''
+        # creat subplot and appropriate axis titles
         fig, ax = plt.subplots(1, figsize=(25,12))
         ax.set(xlabel = self.var1_title, ylabel = self.var2_title, title = self.var1_title + ' vs. ' + self.var2_title)
         ax.scatter(self.var1, self.var2, alpha = 0.6, c=get_randcolor())
@@ -46,12 +47,14 @@ class graph_visuals:
         Creates a bar graph using one column of interest to display the frequency of occurrence.
         '''
         fig, ax = plt.subplots(1, figsize=(25,12))
+        # plots frequency of each value for the chosen column
         self.var1.value_counts().plot(ax=ax, kind='bar', xlabel=self.var1_title, ylabel='Frequency', title = self.var1_title + ' with Frequency')
     
     def hist_graph(self):
         '''
         Creates a histogram using one column of interest to display the frequency of occurrence.
         '''
+        # plots the frequency of each value of a chosen column using bins
         fig, ax = plt.subplots(1, figsize=(25,12))
         ax.set(xlabel = self.var1_title, ylabel = 'Frequency', title = self.var1_title + ' with Frequency')
         ax.hist(self.var1, self.bins)
