@@ -54,7 +54,23 @@ The csv. file used was a randomly chosen subset of the Million Song Dataset. The
 ### Data Visualization
 We import several modules to gain access to the code in another module. urllib is a package that collects several modules for working with URLs. Pandas is a package that tells Python to bring the pandas data analysis library into your current environment. Numpy is a package to perform a number of mathematical operations on arrays such as trigonometric, statistical, and algebraic routines. Matplotlib.pyplot is a package to generate Pyplot such as Line Plot, Contour, Histogram, Scatter, 3D Plot, etc.
 
-We import code from data_visual_class.py to get the graph_visuals function. First of all we called the data set that we have already cleaned into the Dataset visualization file. Then, we assign axis strings with axis titles to each variable that we are using.
+We import code from data_visual_class.py to get the graph_visuals function. First of all we called the data set that we have already cleaned into the Dataset visualization file. Then, we assign axis strings with axis titles to each variable that we are using. Some tracks are missing values for certain columns. Throughout the visualizations, we will be removing any unknown values for certain columns for proper scatter plot, bar graph, or box plot visualizations.
+
+#### I. Durations vs Tempo
+
+We removed all rows that have 0 values for durations and tempo. We decided to use scatter plotto give us the data correlation between the durations and the tempo of the millions data set. From the result, the information we received is that most song durations are between 200 to 275 seconds, while most songs' tempo is between 80 to 130 beats per minute.
+<img width="1102" alt="Screen Shot 2022-03-17 at 4 15 29 PM" src="https://user-images.githubusercontent.com/100387860/158909245-5065db28-d1fd-421a-b766-8fdb1622f486.png">
+
+We generated boxplot for tempo and durations to get more clearer view of the data
+<img width="832" alt="Screen Shot 2022-03-17 at 4 15 37 PM" src="https://user-images.githubusercontent.com/100387860/158909276-6b214bcd-97e8-4687-ac03-aaf768e85539.png">
+
+From the “tempo” box plot above, we could see that most songs’ tempo were between 95 to 145 beats per minute, with the median around 120 beats per minute
+
+<img width="832" alt="Screen Shot 2022-03-17 at 4 15 43 PM" src="https://user-images.githubusercontent.com/100387860/158909296-b6a114d6-aa51-40b3-8e1e-8f5c02e80872.png">
+
+From the “duration” box plot above, we could see that most songs' duration were between 180 to 275 seconds, with the median around 210 seconds.
+
+#### II. Tempo vs Time Signature
 
 ...
 
