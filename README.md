@@ -77,4 +77,4 @@ for Music Information Retrieval Conference (ISMIR 2011), 2011.
 [link](http://millionsongdataset.com/)
 
 UCI data description:
-Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science. [link](http://archive.ics.uci.edu/ml/citation_policy.html)
+Dua, D. and Graff, C. (2019). [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science. [link](http://archive.ics.uci.edu/ml/citation_policy.html)
