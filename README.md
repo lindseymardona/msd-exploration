@@ -1,4 +1,4 @@
-# Analysis of the Million Songs Dataset
+# Song Predictive Year
 
 Contributors: lindseymardona, jbfranco21, ryansuwarno
 
