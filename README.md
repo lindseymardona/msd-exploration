@@ -1,12 +1,9 @@
 # Predicting Release Year of Songs
 
-Contributors: lindseymardona, jbfranco21, ....
+Contributors: lindseymardona, jbfranco21, ryansuwarno
 
 ## The Task
 Our goal is to aid in exploratory analysis of the Million Songs Dataset through visualizations of the data.
-
-#### Inputs (relevant?)
-#### Outputs (relevant?)
 
 ## The Dataset
 The Million Song Dataset (MSD) is a collection of 1,000,000 contemporary, popular music tracks with their associated audio features and metadata. The songs are mostly of western origina and release years range from 1922 to 2011, with a peak in songs from the 2000s. 
