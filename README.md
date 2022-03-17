@@ -19,7 +19,12 @@ The Million Song Dataset (MSD) is a collection of 1,000,000 contemporary, popula
 Scope and limitations, including ethical implications, accessibility concerns, and ideas for potential extensions.
 
 ## Description of the demo file
-<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 44 PM" src="https://user-images.githubusercontent.com/100387860/158728913-f100fa7a-1603-496d-8d35-493ff264deec.png">
+<img width="1125" alt="Screen Shot 2022-03-16 at 8 02 16 PM" src="https://user-images.githubusercontent.com/100387860/158729449-c68dfb91-77e4-4c85-9018-66fbb7a733ae.png">
+<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 27 PM" src="https://user-images.githubusercontent.com/100387860/158729519-79d994f1-5c54-46ff-a709-39b0ebd85919.png">
+<img width="1124" alt="Screen Shot 2022-03-16 at 8 02 36 PM" src="https://user-images.githubusercontent.com/100387860/158729529-ea68791e-e194-4b62-82ff-11ffced79cde.png">
+<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 44 PM" src="https://user-images.githubusercontent.com/100387860/158729543-65b528b7-df0b-43b6-9c0b-6cf0b8f69a0e.png">
+<img width="1109" alt="Screen Shot 2022-03-16 at 8 02 53 PM" src="https://user-images.githubusercontent.com/100387860/158729555-9b5e52cd-4a77-4def-8f15-f4b3f937d6a7.png">
+<img width="1114" alt="Screen Shot 2022-03-16 at 8 03 02 PM" src="https://user-images.githubusercontent.com/100387860/158729561-7a0adacb-8e02-4a2c-a531-235cd0cef728.png">
 
 ## Licenses
 
