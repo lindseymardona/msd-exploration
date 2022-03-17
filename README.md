@@ -32,6 +32,12 @@ The users should pip install the requirements.txt
 ```
 conda create --name msdemv --file requirements.txt
 ```
+or
+```
+conda create --name msdemv 
+conda install pip
+pip instal -r requirements.txt
+```
 
 ## Scope and Limitations
 While data cleaning, certain songs were removed due to special characters within the album or track titles. 
