@@ -30,7 +30,7 @@ Each track description includes the following:
 "Instructions on how to install the package requirements. If you used the conda line above, your instruction should have the line conda create --name NEWENV --file requirements.txt."
 
 ## Scope and Limitations
-While data cleaning, certain songs were removed dude to special characters within the album or track titles. 
+While data cleaning, certain songs were removed due to special characters within the album or track titles. 
 
 ....
 Scope and limitations, including ethical implications, accessibility concerns, and ideas for potential extensions.
