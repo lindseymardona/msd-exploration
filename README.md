@@ -28,8 +28,10 @@ Each track description includes the following:
   - **SongHotness** - According to The Echo Nest, the hotness of the song when downloaded (scale of 0 to 1)
 
 ## Installations
-....
-The users should pip install the requirements.txt.
+The users should pip install the requirements.txt
+```
+conda create --name msdemv --file requirements.txt
+```
 
 ## Scope and Limitations
 While data cleaning, certain songs were removed due to special characters within the album or track titles. 
