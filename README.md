@@ -30,11 +30,11 @@ Each track description includes the following:
 ## Installations
 The users should pip install the requirements.txt
 ```
-conda create --name msdemv --file requirements.txt
+conda create --name msdenv --file requirements.txt
 ```
 or
 ```
-conda create --name msdemv 
+conda create --name msdenv 
 conda install pip
 pip instal -r requirements.txt
 ```
