@@ -54,7 +54,7 @@ The csv. file used was a randomly chosen subset of the Million Song Dataset. The
 ### Data Visualization
 We import several modules to gain access to the code in another module. urllib is a package that collects several modules for working with URLs. Pandas is a package that tells Python to bring the pandas data analysis library into your current environment. Numpy is a package to perform a number of mathematical operations on arrays such as trigonometric, statistical, and algebraic routines. Matplotlib.pyplot is a package to generate Pyplot such as Line Plot, Contour, Histogram, Scatter, 3D Plot, etc.
 
-We import code from data_visual_class.py to get the graph_visuals function. First of all we called the data set that we have already cleaned into the Dataset visualization file. Then, we assign axis strings with axis titles to each variable that we are using. Some tracks are missing values for certain columns. Throughout the visualizations, we will be removing any unknown values for certain columns for proper scatter plot, bar graph, or box plot visualizations.
+We import python file from data_visual_class.py to get the graph_visuals function. First of all we called the data set that we have already cleaned into the Dataset visualization file. Then, we assign axis strings with axis titles to each variable that we are using. Some tracks are missing values for certain columns. Throughout the visualizations, we will be removing any unknown values for certain columns for proper scatter plot, bar graph, or box plot visualizations.
 
 #### I. Durations vs Tempo
 
@@ -92,7 +92,44 @@ In order to get the data of the numbers of songs that are released for certain t
 <img width="1104" alt="Screen Shot 2022-03-17 at 4 37 11 PM" src="https://user-images.githubusercontent.com/100387860/158911035-0cd3e13d-57ee-484b-91c9-7d66d78a73d3.png">
 
 
-...
+### Artist Summary Demo
+The purpose of this Artist Summary file is to get certain data from the data set. We imported the ArtistSummary file to get the ArtistSummary function. We also use panda modules in this file. First of all we called the data set that we have already cleaned into the ArtistSummary Demo file. 
+
+#### Retrieving Artist with the most data
+We start by retrieving the artist with the most data available. Then we print the data set of the artist and it resulted that Mario Rosenstock have the most song in this data set.
+
+<img width="1101" alt="Screen Shot 2022-03-17 at 5 50 25 PM" src="https://user-images.githubusercontent.com/100387860/158916762-ccd41f09-ae42-4ec7-a09f-1140029f0b84.png">
+
+Then we call function summary() in order to get the informations and statistics summary of Mario Rosenstock. We got the information such as the artist name, artist id, average song durations of Rosenstock's song is 201.2 seconds, average song tempo of Rosenstock's song is 108.19 beats per minute, and his hottest song which is "Smoke". 
+
+<img width="246" alt="Screen Shot 2022-03-17 at 5 56 52 PM" src="https://user-images.githubusercontent.com/100387860/158917391-91b5d39d-f006-4c86-b22b-915e3b4b96cc.png">
+
+We also could get the information of the artist's activity which is how many songs that been produced every year for that specific artist. We could call the function by calling activity function. But for Mario Rosenstock, we are unable to get information of his activity because we do not have any information within the dataset regarding the years his song were released. 
+
+<img width="283" alt="Screen Shot 2022-03-17 at 6 00 50 PM" src="https://user-images.githubusercontent.com/100387860/158917724-d4e314d6-4509-4baa-ade7-82283ace48f4.png">
+
+We also could get informations and statistics of any artist in the data set. We gave two artist example in this project which is Sonora Santanera and Rick Astley"
+##### Example 1
+Artist name: Sonora Santanera
+Artist ID: ARKRRTF1187B9984DA
+Average song duration: 165.3
+Average song tempo: 99.54
+Error: No song hotness data available.
+
+##### Example 2
+Artist name: Rick Astley
+Artist ID: ARWPYQI1187FB4D55A
+Average song duration: 224.46
+Average song tempo: 125.44
+Hottest song: Never Gonna Give You Up (1987)
+
+In the second example, in the data we have the information of the artist's activity per year. Therefore we could get the data of the numbers of song that Rick Astley produce for certain years.
+
+<img width="1116" alt="Screen Shot 2022-03-17 at 6 06 50 PM" src="https://user-images.githubusercontent.com/100387860/158918443-8f888b14-e66e-491d-9e42-7fbcbf482e4b.png">
+
+Lastly, we try to get the statistics and information of the artist that is not listed in the data set and it will resulted an error.
+
+<img width="816" alt="Screen Shot 2022-03-17 at 6 08 17 PM" src="https://user-images.githubusercontent.com/100387860/158918319-9dc51364-aaa9-433a-8ea8-d7509e32b4d6.png">
 
 ## Licenses
 
