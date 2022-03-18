@@ -71,15 +71,28 @@ From the “tempo” box plot above, we could see that most songs’ tempo were 
 From the “duration” box plot above, we could see that most songs' duration were between 180 to 275 seconds, with the median around 210 seconds.
 
 #### II. Tempo vs Time Signature
+In order to get the data correlation between the tempo and time signature, we use a scatter plot. As the result, we see that most songs were at 1 beat per bar and 4 beats per bar.
+<img width="1115" alt="Screen Shot 2022-03-17 at 4 27 24 PM" src="https://user-images.githubusercontent.com/100387860/158910148-48ff62b0-d74c-461b-8119-b6e28c332b3f.png">
+
+#### III. Durations vs Time Signature
+In order to get the data correlation between the durations of the song and the time signature, we use a scatter plot. We drops any rows where the seconds for Duration is longer than 700 in order to get better for viewing patterns. As the result, we see that most song were at 4 beats per bar with durations 100 to 400 seconds.
+<img width="1107" alt="Screen Shot 2022-03-17 at 4 36 20 PM" src="https://user-images.githubusercontent.com/100387860/158910962-5f0e4957-56f8-4e62-84d1-136688564787.png">
+
+#### IV. Durations vs Song Hotness
+In order to get the data correlation between the durations of the song and the song hotness, we use a scatter plot.
+<img width="1109" alt="Screen Shot 2022-03-17 at 4 36 30 PM" src="https://user-images.githubusercontent.com/100387860/158910990-dee5c3cc-ace4-4a20-9bb2-deda38fff45e.png">
+
+#### V. Year of Song Released
+In order to get the data of the numbers of songs that are released every year, we use a histograms and bar graph. As the result, we see that most song were produced after 2000. We also could see that the number of song produce every year is increase from the previous year.
+<img width="1117" alt="Screen Shot 2022-03-17 at 4 36 38 PM" src="https://user-images.githubusercontent.com/100387860/158911007-af7b4cb7-4374-449a-aa0a-0768ccbf26e7.png">
+<img width="1106" alt="Screen Shot 2022-03-17 at 4 36 51 PM" src="https://user-images.githubusercontent.com/100387860/158911019-ff8da8c4-0629-4b8b-aefa-d2baac589c74.png">
+
+#### VI. Most Songs' Released With Certain Tempo
+In order to get the data of the numbers of songs that are released for certain tempo, we use a histograms. As the result, we see that most artist produce their songs with tempo between 100 to 150 beats per minute
+<img width="1104" alt="Screen Shot 2022-03-17 at 4 37 11 PM" src="https://user-images.githubusercontent.com/100387860/158911035-0cd3e13d-57ee-484b-91c9-7d66d78a73d3.png">
+
 
 ...
-
-<img width="1125" alt="Screen Shot 2022-03-16 at 8 02 16 PM" src="https://user-images.githubusercontent.com/100387860/158729449-c68dfb91-77e4-4c85-9018-66fbb7a733ae.png">
-<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 27 PM" src="https://user-images.githubusercontent.com/100387860/158729519-79d994f1-5c54-46ff-a709-39b0ebd85919.png">
-<img width="1124" alt="Screen Shot 2022-03-16 at 8 02 36 PM" src="https://user-images.githubusercontent.com/100387860/158729529-ea68791e-e194-4b62-82ff-11ffced79cde.png">
-<img width="1129" alt="Screen Shot 2022-03-16 at 8 02 44 PM" src="https://user-images.githubusercontent.com/100387860/158729543-65b528b7-df0b-43b6-9c0b-6cf0b8f69a0e.png">
-<img width="1109" alt="Screen Shot 2022-03-16 at 8 02 53 PM" src="https://user-images.githubusercontent.com/100387860/158729555-9b5e52cd-4a77-4def-8f15-f4b3f937d6a7.png">
-<img width="1114" alt="Screen Shot 2022-03-16 at 8 03 02 PM" src="https://user-images.githubusercontent.com/100387860/158729561-7a0adacb-8e02-4a2c-a531-235cd0cef728.png">
 
 ## Licenses
 
